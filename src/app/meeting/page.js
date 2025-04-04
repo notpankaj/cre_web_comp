@@ -108,7 +108,7 @@ const Page = () => {
     <div className="main_container">
       <div
         id="meet"
-        style={{ height: "843px", width: "100%", margin: "auto" }}
+        style={{ height: "100vh", width: "100%", margin: "auto" }}
       ></div>
     </div>
   );
