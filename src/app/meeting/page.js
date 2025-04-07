@@ -56,10 +56,22 @@ const Page = () => {
           startWithAudioMuted: true,
           startWithVideoMuted: true,
           prejoinPageEnabled: false,
+          disableInviteFunctions: true,
+          fileRecordingsEnabled: false,
+          liveStreamingEnabled: false,
+          disableReactions: true,
         },
         interfaceConfigOverwrite: {
           SHOW_JITSI_WATERMARK: false,
           SHOW_BRAND_WATERMARK: false,
+          SHOW_ROOM_NAME: false,
+          TOOLBAR_BUTTONS: [
+            "microphone",
+            "camera",
+            "hangup",
+            "chat",
+            "settings",
+          ],
         },
       };
 
